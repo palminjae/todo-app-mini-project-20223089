@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API = 'http://localhost:5000/api/todos';
+const API = 'https://todo-app-mini-project-20223089.onrender.com/api/todos';
 
 function App() {
   const [todos, setTodos] = useState([]);
